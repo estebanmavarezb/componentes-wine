@@ -24,7 +24,7 @@ const ComponenteModal = (props: PropsI) => {
         body.style.overflow = 'hidden'
     }
     const handleClickValidacion = (e:any) => {
-        localStorage.setItem('validacion', JSON.stringify(!validacion))
+        sessionStorage.setItem('validacion', JSON.stringify(!validacion))
         setValidacion(!validacion)
         let body = document.querySelector('body')
         body.style.overflow = 'unset'
@@ -33,7 +33,7 @@ const ComponenteModal = (props: PropsI) => {
         setBlock(!block)
     }
     const revisionStorage = () => {
-        let storage = JSON.parse(localStorage.getItem('validacion'))
+        let storage = JSON.parse(sessionStorage.getItem('validacion'))
         console.log(storage)
         if(storage) {
             setRevision(false)
