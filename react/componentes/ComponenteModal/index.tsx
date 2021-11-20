@@ -34,7 +34,6 @@ const ComponenteModal = (props: PropsI) => {
     }
     const revisionStorage = () => {
         let storage = JSON.parse(sessionStorage.getItem('validacion'))
-        console.log(storage)
         if(storage) {
             setRevision(false)
         } else{
@@ -90,7 +89,7 @@ const ComponenteModal = (props: PropsI) => {
     },[props, check, validacion, block, revision])
 }
 ComponenteModal.schema = {
-    title: 'Componente Destaque Container ',
+    title: 'Componente Modal de validacion',
     type: 'object',
     properties: {
         isShow: {
