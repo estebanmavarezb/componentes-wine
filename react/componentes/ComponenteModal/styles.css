@@ -1,0 +1,75 @@
+.ContainerModal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.Modal{
+    width: 39%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ContenidoModal{
+    background: #F3F2F2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.TextoPrincipal{
+    width: 70%;
+    font-size: 21px;
+    text-align: center;
+}
+
+.CheckBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.TextCheck{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.boton{
+    border: none;
+    padding: .8rem 1rem;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.BotonOpen{
+    background-color: goldenrod;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.BotonClose{
+    background-color: #000;
+    color: #fff;
+}
+
+.MensajeValidacion{
+    font-size: 18px;
+}
+.CloseModal{
+    display: none;
+}
+.BlockModal{}
+
+.blockPage{}
