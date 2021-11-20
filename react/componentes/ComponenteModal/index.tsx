@@ -95,32 +95,7 @@ ComponenteModal.schema = {
         isShow: {
             title: 'is Show?',
             type: 'boolean',
-            default: true
-        },
-        textoPrincipal: {
-            title: 'Texto principal del modal.',
-            type: 'stirng',
-            default: 'Al ingresar a este sitio usted declara tener la edad legal necesaria para consumir bebidas alcohólicas en su país.'
-        },
-        blockMesaje:{
-            title: 'Texto cuando no se pasa la validacion.',
-            type: 'string',
-            default: 'Lo sentimos, no puedes acceder a Wine Supply.'
-        },
-        mensajeCheck:{
-            title: 'Texto del checkbox.',
-            type: 'string',
-            default: 'Acepto que soy mayor de edad.'
-        },
-        botonIzquierdo:{
-            title: 'Texto del boton izquierdo.',
-            type: 'string',
-            default: 'Soy mayor de +18'
-        },
-        botonDerecho:{
-            title: 'Texto del boton derecho.',
-            type: 'string',
-            default: 'No, soy menor'
+            default: true,
         }
     }
 }
