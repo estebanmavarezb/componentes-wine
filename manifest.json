@@ -1,7 +1,7 @@
 {
   "name": "componentes-wine",
   "vendor": "winesupply",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "vtex-version": "0.0.0",
   "builders": {
     "react": "3.x",
