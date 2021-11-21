@@ -1,0 +1,19 @@
+.ContainerSpecifications{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.Specifications{
+    margin-bottom: .6rem;
+}
+.NameAtributo{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: .5rem;
+}
+
+.ValuesAtributo{
+
+}
