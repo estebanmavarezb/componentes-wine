@@ -1,5 +1,11 @@
 {
   "wine-componente-modal":{
     "component": "ComponenteModal"
+  },
+  "wine-specification-group":{
+    "component": "SpecificationGroup"
+  },
+  "wine-short-description":{
+    "component": "ShortDescription"
   }
 }
