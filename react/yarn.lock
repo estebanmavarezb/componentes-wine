@@ -1290,6 +1290,13 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
+"@types/ramda@^0.27.50":
+  version "0.27.50"
+  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.27.50.tgz#cc680fa45361918dd6fa942be9884c5892a81f06"
+  integrity sha512-9CIXC4laCxK1UxfYmLZhXj3AEJu8C/cGTKMapykAvP8gIbAJjdVfzMVR9vq9d8Cddt71UlDDwNvGZ5q/DE+83w==
+  dependencies:
+    ts-toolbelt "^6.15.1"
+
 "@types/react-intl@^2.3.17", "@types/react-intl@^2.3.18":
   version "2.3.18"
   resolved "https://registry.yarnpkg.com/@types/react-intl/-/react-intl-2.3.18.tgz#fd2d8b7f4d0a1dd05b5f1784ab0d7fe1786a690d"
@@ -4639,6 +4646,11 @@ ts-invariant@^0.9.0:
   integrity sha512-hSeYibh29ULlHkuEfukcoiyTct+s2RzczMLTv4x3NWC/YrBy7x7ps5eYq/b4Y3Sb9/uAlf54+/5CAEMVxPhuQw==
   dependencies:
     tslib "^2.1.0"
+
+ts-toolbelt@^6.15.1:
+  version "6.15.5"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
+  integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
 
 tslib@1.9.0:
   version "1.9.0"

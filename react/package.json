@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/classnames": "^2.2.8",
     "@types/jest": "^24.0.13",
+    "@types/ramda": "^0.27.50",
     "@types/react": "^16.8.19",
     "@types/react-intl": "^2.3.18",
     "@vtex/test-tools": "^0.3.2",
