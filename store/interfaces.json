@@ -7,5 +7,9 @@
   },
   "wine-short-description":{
     "component": "ShortDescription"
+  },
+  "wine-custom-container":{
+    "component": "CustomContainer",
+    "composition": "children"
   }
 }
